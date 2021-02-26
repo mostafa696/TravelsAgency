@@ -1,0 +1,8 @@
+<!ELEMENT vols (vol+)>
+<!ELEMENT vol (nom,ciutat,preu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+<!ELEMENT imatge (#PCDATA)>
+
+<!ATTLIST vol isbn ID #REQUIRED>

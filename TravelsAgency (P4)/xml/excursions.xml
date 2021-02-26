@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE excursions SYSTEM "excursions.dtd">
+
+<excursions>
+
+    <excursio isbn="I01">
+        <nom>MONTE FITZ ROY O CERRO CHALTÉN</nom>
+        <ciutat>Argentina</ciutat>
+        <preu>0$</preu>
+        <imatge>MONTE FITZ ROY O CERRO CHALTÉN.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I02">
+        <nom>CAMINO DE SANTIAGO RUTA NORTE</nom>
+        <ciutat>España</ciutat>
+        <preu>0$</preu>
+        <imatge>CAMINO DE SANTIAGO RUTA NORTE.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I03">
+        <nom>EL RASTRO DE SALCANTAY, MACHU PICHU</nom>
+        <ciutat>Perú</ciutat>
+        <preu>0$</preu>
+        <imatge>EL RASTRO DE SALCANTAY, MACHU PICHU.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I04">
+        <nom>INARI SHRINE, KYOTO</nom>
+        <ciutat>Japón</ciutat>
+        <preu>0$</preu>
+        <imatge>INARI SHRINE, KYOTO.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I05">
+        <nom>DOIS IRMAOS, RÍO DE JANEIRO</nom>
+        <ciutat>Brasil</ciutat>
+        <preu>0$</preu>
+        <imatge>DOIS IRMAOS, RÍO DE JANEIRO.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I06">
+        <nom>SENDERO DEL LAGO MINARET, CALIFORNIA</nom>
+        <ciutat>Estados Unidos</ciutat>
+        <preu>0$</preu>
+        <imatge>SENDERO DEL LAGO MINARET, CALIFORNIA.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I07">
+        <nom>FANSIPAN, SAPA</nom>
+        <ciutat>Vietnam</ciutat>
+        <preu>0$</preu>
+        <imatge>FANSIPAN, SAPA.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I08">
+        <nom>PARQUE NACIONAL BAKO</nom>
+        <ciutat>Isla de Borneo</ciutat>
+        <preu>0$</preu>
+        <imatge>PARQUE NACIONAL BAKO.jpg</imatge>
+    </excursio>
+
+    <excursio isbn="I09">
+        <nom>EL SENDERO DE LOS DIOSES</nom>
+        <ciutat>Costa Amalfitana</ciutat>
+        <preu>0$</preu>
+        <imatge>EL SENDERO DE LOS DIOSES.jpg</imatge>
+    </excursio>
+
+</excursions>

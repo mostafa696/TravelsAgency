@@ -1,0 +1,7 @@
+<!ELEMENT excursions (excursio+)>
+<!ELEMENT excursio (nom,ciutat,preu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST excursio isbn ID #REQUIRED>

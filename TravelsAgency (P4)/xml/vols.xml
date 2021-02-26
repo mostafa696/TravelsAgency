@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE vols SYSTEM "vols.dtd">
+
+<vols>
+
+    <vol isbn="I01">
+        <nom>TURKISH AIRLINES (Iberia)</nom>
+        <ciutat>Turkia</ciutat>
+        <preu>0$</preu>
+        <imatge>TURKISH AIRLINES.jpg</imatge>
+    </vol>
+
+    <vol isbn="I02">
+        <nom>AEROFLOT (Iberia)</nom>
+        <ciutat>Russia</ciutat>
+        <preu>0$</preu>
+        <imatge>AEROFLOT.jpg</imatge>
+    </vol>
+
+    <vol isbn="I03">
+        <nom>EMIRATES (Iberia)</nom>
+        <ciutat>United Arab Emirates</ciutat>
+        <preu>0$</preu>
+        <imatge>EMIRATES.jpg</imatge>
+    </vol>
+
+    <vol isbn="I04">
+        <nom>AIR EUROPA (Iberia)</nom>
+        <ciutat>Espanya</ciutat>
+        <preu>0$</preu>
+        <imatge>AIR EUROPA.jpg</imatge>
+    </vol>
+
+    <vol isbn="I05">
+        <nom>NORWEGIAN (United)</nom>
+        <ciutat>Noruega</ciutat>
+        <preu>0$</preu>
+        <imatge>NORWEGIAN.jpg</imatge>
+    </vol>
+
+    <vol isbn="I06">
+        <nom>S7 AIRLINES (United)</nom>
+        <ciutat>Russia</ciutat>
+        <preu>0$</preu>
+        <imatge>S7 AIRLINES.jpg</imatge>
+    </vol>
+
+    <vol isbn="I07">
+        <nom>JET2 (United)</nom>
+        <ciutat>United Kingdom</ciutat>
+        <preu>0$</preu>
+        <imatge>JET2.jpg</imatge>
+    </vol>
+
+    <vol isbn="I08">
+        <nom>AEROMEXICO (United)</nom>
+        <ciutat>Mexico</ciutat>
+        <preu>0$</preu>
+        <imatge>AEROMEXICO.jpg</imatge>
+    </vol>
+
+    <vol isbn="I09">
+        <nom>ETIHAD AIRWAYS (Austrian Airlines)</nom>
+        <ciutat>United Arab Emirates</ciutat>
+        <preu>0$</preu>
+        <imatge>ETIHAD AIRWAYS.jpg</imatge>
+    </vol>
+
+</vols>

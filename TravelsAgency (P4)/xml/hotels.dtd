@@ -1,0 +1,7 @@
+<!ELEMENT hotels (hotel+)>
+<!ELEMENT hotel (nom,ciutat,preu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST hotel isbn ID #REQUIRED>

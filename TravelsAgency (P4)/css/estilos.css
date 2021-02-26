@@ -1,0 +1,356 @@
+:root{
+    --vermell: #E50914;
+    --fondo: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--fondo);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logotipo{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    color: var(--vermell);
+}
+
+header nav a{
+    color: #AAA;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+header nav a:hover,
+header nav a.active{
+    color: #FFF;
+}
+
+/*Viatge principal*/
+
+.destino-principal{
+    font-size: 16px;
+    min-height: 650px;
+    color: #fff;
+    background: linear-gradient(rgba(0,0,0,.50) 0%, rgba(0,0,0,.50) 100%), url(../img/principal-wallpaper.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: end;
+}
+
+/*
+.destino-principal .contenedor{
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+*/
+
+.destino-principal .título{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.destino-principal .descripcion{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.destino-principal .boton{
+    background: rgba(0.0.0. 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;   
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 18px;
+}
+
+.destino-principal .boton:hover{
+    background: #000;
+    color: #fff;
+}
+
+.destino-principal .boton i{
+    margin-right: 20px;
+}
+
+footer{
+    background-color: aliceblue;
+}
+
+/*Contenedor titulo i controls*/
+
+.contenedor-titulo-controles h3{
+    color: #fff;
+    font-size: 30px;
+}
+
+/*Conteedor principal i fletxes*/
+
+.destinos-recomendados{
+    margin-bottom: 70px;
+}
+
+.destinos-recomendados .contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.destinos-recomendados .contenedor-principal .fletxa-esquerra,
+.destinos-recomendados .contenedor-principal .fletxa-dreta{
+    position: absolute;
+    border: none;
+    background: rgba(0,0,0,0.3);
+    font-size: 40px;
+    height: 50%;
+    top: calc(50% - 25%);
+    line-height: 40px;
+    width: 50px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 500;
+    transition: .2s aease all;
+}
+
+.destinos-recomendados .contenedor-principal .fletxa-esquerra:hover,
+.destinos-recomendados .contenedor-principal .fletxa-dreta:hover{
+    background: rgba(0,0,0,0.9);
+}
+
+.destinos-recomendados .contenedor-principal .fletxa-esquerra{
+    left: 0;
+}
+
+.destinos-recomendados .contenedor-principal .fletxa-dreta{
+    right: 0;
+}
+
+/*Carousel*/
+
+.destinos-recomendados .contenedor-carousel{
+    width: 100%;
+    padding: 20px 0;
+/*    overflow: hidden;*/
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+}
+
+.destinos-recomendados .contenedor-carousel .carousel{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.destinos-recomendados .contenedor-carousel .carousel .desti{
+    min-width: 20%;
+    transition: .3s ease all;
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.3);
+}
+
+.destinos-recomendados .contenedor-carousel .carousel .desti.hover{
+    transform: scale(1.2);
+    transform-origin: center;
+}
+
+.destinos-recomendados .contenedor-carousel .carousel .desti img{
+    width: 100%;
+    vertical-align: top;
+}
+
+/*Media Queries: Tablet*/
+
+@media screen and (max-width: 800px){
+    header .logotipo{
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    header .contenedor{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .destino-principal{
+        font-size: 14px;
+    }
+    
+    .destino-principal .descripcion{
+        max-width: 100%;
+    }
+    
+    .destinos-recomendados .contenedor-carousel{
+        overflow: visible;
+    }
+    
+    .destinos-recomendados .contenedor-carousel .carousel{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        column-gap: 20px;
+    }
+    
+    .destinos-recomendados .indicadors,
+    .destinos-recomendados .fletxa-esquerra,
+    .destinos-recomendados .fletxa-dreta{
+        display: none;
+    }
+}
+
+/*Media Queries: Mobil*/
+
+@media screen and (max-width: 430px){
+    
+}
+
+
+/*---Registre i Login---*/
+
+.container{
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario{
+    background: #fff;
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1{
+    text-align: center;
+    color: #1a2537;
+    font-size: 40px;
+}
+
+input[type="text"],
+input[type="password"]{
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-container{
+    margin-bottom: 15px;
+    border: 1px solid #aaa;
+}
+
+.icon{
+    min-width: 50px;
+    text-align: center;
+    color: #999;
+}
+
+.button{
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    background: #1a2537;
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background: black;
+}
+
+p{
+    text-align: center;
+}
+
+.link{
+    text-decoration: none;
+    color: #1a2537;
+    font-weight: 600;
+}
+
+.link:hover{
+    color: forestgreen;
+}
+
+/*Mediaquery*/
+
+@media(min-width:800px){
+    .formulario{
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
+
+/*MENU-SUBMENUS*/
+
+.menu > li{
+    position: relative;
+    display: inline-block;
+}
+
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+}
+
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity
+}
+
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

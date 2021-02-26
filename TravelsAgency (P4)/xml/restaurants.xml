@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE restaurants SYSTEM "restaurants.dtd">
+
+<restaurants>
+
+    <restaurant isbn="I01">
+        <nom>SUBLIMOTION</nom>
+        <ciutat>Ibiza (España)</ciutat>
+        <preu>1650$</preu>
+        <imatge>SUBLIMOTION.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I02">
+        <nom>ULTRAVIOLET</nom>
+        <ciutat>Shangai (China)</ciutat>
+        <preu>1489$</preu>
+        <imatge>ULTRAVIOLET.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I03">
+        <nom>MASA</nom>
+        <ciutat>Nueva York (EE.UU)</ciutat>
+        <preu>1017$</preu>
+        <imatge>MASA.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I04">
+        <nom>KITCHO ARASHIYAMA HONTEN</nom>
+        <ciutat>Kyoto (Japón)</ciutat>
+        <preu>500$</preu>
+        <imatge>KITCHO ARASHIYAMA HONTEN.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I05">
+        <nom>JOEL ROBUCHON</nom>
+        <ciutat>Las Vegas (Nevada)</ciutat>
+        <preu>760$</preu>
+        <imatge>JOEL ROBUCHON.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I06">
+        <nom>GUY SAVOY</nom>
+        <ciutat>París (Francia)</ciutat>
+        <preu>735$</preu>
+        <imatge>GUY SAVOY.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I07">
+        <nom>ALAIN DUCASSE AU PLAZA ATHENEE</nom>
+        <ciutat>París (Francia)</ciutat>
+        <preu>726$</preu>
+        <imatge>ALAIN DUCASSE AU PLAZA ATHENEE.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I08">
+        <nom>SAISON</nom>
+        <ciutat>San Francisco (California)</ciutat>
+        <preu>680$</preu>
+        <imatge>SAISON.jpg</imatge>
+    </restaurant>
+
+    <restaurant isbn="I09">
+        <nom>THE FAT DUCK</nom>
+        <ciutat>Inglés de Bray (Inglaterra)</ciutat>
+        <preu>150$</preu>
+        <imatge>THE FAT DUCK.jpg</imatge>
+    </restaurant>
+
+</restaurants>

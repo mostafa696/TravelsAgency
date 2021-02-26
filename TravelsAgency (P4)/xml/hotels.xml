@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hotels SYSTEM "hotels.dtd">
+
+<hotels>
+
+    <hotel isbn="I01">
+        <nom>HOTEL BURJ AL ARAB</nom>
+        <ciutat>Golfo Pérsico(Dubai)</ciutat>
+        <preu>2500$</preu>
+        <imatge>HOTEL BURJ AL ARAB.jpg</imatge>
+    </hotel>
+
+    <hotel iisbn="I02">
+        <nom>FOUR SEASON HOTEL GEORGE V</nom>
+        <ciutat> Campos Elíseos (París)</ciutat>
+        <preu>2177$</preu>
+        <imatge>FOUR SEASON HOTEL GEORGE V.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I03">
+        <nom>GALLERY HOTEL ART</nom>
+        <ciutat>Ponte Vecchio (Florencia)</ciutat>
+        <preu>107$</preu>
+        <imatge>GALLERY HOTEL ART.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I04">
+        <nom>HOTEL DE GLACE</nom>
+        <ciutat>Québec (Canadá)</ciutat>
+        <preu>475$</preu>
+        <imatge>HOTEL DE GLACE.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I05">
+        <nom>PALMS CASINO RESORT</nom>
+        <ciutat>Las Vegas</ciutat>
+        <preu>344$</preu>
+        <imatge>PALMS CASINO RESORT.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I06">
+        <nom>MANDARIN ORIENTAL</nom>
+        <ciutat>Nueva York (EEUU)</ciutat>
+        <preu>294$</preu>
+        <imatge>MANDARIN ORIENTAL.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I07">
+        <nom>THE FAIRMONT KEA LANI MAUI</nom>
+        <ciutat>Playa virgen de Wailea(Hawaii)</ciutat>
+        <preu>2599$</preu>
+        <imatge>THE FAIRMONT KEA LANI MAUI.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I08">
+        <nom>PRESIDENT WILSON HOTEL</nom>
+        <ciutat>Ginebra (Suiza)</ciutat>
+        <preu>319$</preu>
+        <imatge>PRESIDENT WILSON HOTEL.jpg</imatge>
+    </hotel>
+
+    <hotel isbn="I09">
+        <nom>THE ATLANTIS</nom>
+        <ciutat>Paradise Island (Bahamas)</ciutat>
+        <preu>355$</preu>
+        <imatge>THE ATLANTIS.jpg</imatge>
+    </hotel>
+
+</hotels>

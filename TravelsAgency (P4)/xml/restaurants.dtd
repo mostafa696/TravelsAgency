@@ -1,0 +1,7 @@
+<!ELEMENT restaurants (restaurant+)>
+<!ELEMENT restaurant (nom,ciutat,preu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT ciutat (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST restaurant isbn ID #REQUIRED>
